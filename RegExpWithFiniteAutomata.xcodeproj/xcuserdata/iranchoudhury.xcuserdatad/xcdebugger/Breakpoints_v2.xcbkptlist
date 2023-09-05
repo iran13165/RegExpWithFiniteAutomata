@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "01F56CCE-571D-46DA-A350-851F880EEC0F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+<<<<<<< HEAD
+            uuid = "F3DE30FE-8D24-4B19-8397-21FC336E6A0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "F3DE30FE-8D24-4B19-8397-21FC336E6A0B - a5fc014b1df7e882"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "F3DE30FE-8D24-4B19-8397-21FC336E6A0B - a5fc014b1df7e882"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "F3DE30FE-8D24-4B19-8397-21FC336E6A0B - a5fc014b1df7e8e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B16A72B8-9704-4B90-B7E5-7517602EB16F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "B16A72B8-9704-4B90-B7E5-7517602EB16F - a5fc014b1df7e91d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "B16A72B8-9704-4B90-B7E5-7517602EB16F - a5fc014b1df7e91d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE14B087-9754-495E-9C6B-EF3A662A0CF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "FE14B087-9754-495E-9C6B-EF3A662A0CF9 - a5fc014b1df7e806"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "FE14B087-9754-495E-9C6B-EF3A662A0CF9 - a5fc014b1df7e806"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "FE14B087-9754-495E-9C6B-EF3A662A0CF9 - a5fc014b1df7e806"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB7ADBA2-4997-4DF9-A2C9-9F3FDAA71B5C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "FB7ADBA2-4997-4DF9-A2C9-9F3FDAA71B5C - a5fc014b1df7eb8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "FB7ADBA2-4997-4DF9-A2C9-9F3FDAA71B5C - a5fc014b1df7eb8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "FB7ADBA2-4997-4DF9-A2C9-9F3FDAA71B5C - a5fc014b1df7eb2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "FB7ADBA2-4997-4DF9-A2C9-9F3FDAA71B5C - a5fc014b1df7eb0e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BDAFE44-E4BD-44B3-8E8F-36383B45F2ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "6BDAFE44-E4BD-44B3-8E8F-36383B45F2ED - a5fc014b1df7ebab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "6BDAFE44-E4BD-44B3-8E8F-36383B45F2ED - a5fc014b1df7eb2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+=======
+>>>>>>> 420bea7 (test function added)
+            uuid = "DD6B9C23-30B5-4B81-B970-22CBE4A60B2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/builders.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+=======
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+>>>>>>> 420bea7 (test function added)
+            landmarkName = "alt(first)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2467BE5C-49A4-46E1-A7DA-A8A6D523BD24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/builders.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+=======
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+>>>>>>> 420bea7 (test function added)
+            landmarkName = "alt(first)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2467BE5C-49A4-46E1-A7DA-A8A6D523BD24 - c621a409a5629a7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Builders::alt(NFA*, ...)"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/builders.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "2467BE5C-49A4-46E1-A7DA-A8A6D523BD24 - c621a409a5629a7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Builders::alt(NFA*, ...)"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/builders.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "068E89D5-1A53-4C65-BD87-C9EC74755F64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/builders.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+=======
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+>>>>>>> 420bea7 (test function added)
+            landmarkName = "_or(first)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+<<<<<<< HEAD
+=======
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51690AF1-5AD0-46DE-ABB2-EE74022EAA5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ED707DA4-0058-485A-AB6D-02C997F3CD17"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0155AD02-C44E-4163-AAFB-B85DB6550AD7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "0155AD02-C44E-4163-AAFB-B85DB6550AD7 - a5fc014b1df7eb6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "0155AD02-C44E-4163-AAFB-B85DB6550AD7 - a5fc014b1df7eb6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "0155AD02-C44E-4163-AAFB-B85DB6550AD7 - a5fc014b1df7ead0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "0155AD02-C44E-4163-AAFB-B85DB6550AD7 - a5fc014b1df7ead0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "544">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+>>>>>>> 420bea7 (test function added)
+   </Breakpoints>
+</Bucket>
