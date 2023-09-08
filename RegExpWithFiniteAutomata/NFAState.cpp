@@ -4,11 +4,14 @@
 //
 //  Created by IRAN CHOUDHURY on 05/09/23.
 //
-
+#ifndef nfastate_hpp
+#define nfastate_hpp
 #include <stdio.h>
 #include "state.cpp"
+#include "constants.h"
 using namespace std;
-static const string EPSILON = "ε";
+
+
 
         
 class NFAState : public State
@@ -58,3 +61,4 @@ public:
         return false;
     }
 };
+#endif

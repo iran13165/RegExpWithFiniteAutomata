@@ -4,13 +4,13 @@
 //
 //  Created by IRAN CHOUDHURY on 04/09/23.
 //
+#include <utility>
 #include <cstdarg>
 #include "state.cpp"
 #include "nfa.cpp"
-
+#include <iostream>
 using namespace std;
 #include "NFAState.cpp"
-using namespace std;
 
 
 class Builders
@@ -34,23 +34,25 @@ public:
         first->out->addTransitionOnSymbol(EPSILON, second->in);
         return new NFA(first->in, second->out);
     }
-  //  template<typename T, typename ... Args>
-    NFA* alt(NFA* first,...)
+   //template<typename T,typename... Param>
+    NFA* alt(NFA* first, ...)
     {
         va_list args;
-        va_start(args, first);
         NFA* start = first;
+        va_start(args, first);
+       // start = altPair(start, second);
         while (1) {
-            NFA* frag = va_arg(args, NFA*);
-
-            if(frag == NULL)
-
-            if(frag == NULL || frag->in == NULL || frag->out == NULL)
-                break;
-            start = altPair(start, frag);
-            first++;
+           
+            NFA* next = va_arg(args, NFA*);
+            //std::cout<<(next->in->accepting)<<std::endl;
+            if(next == NULL || next->in == NULL || next->out == NULL)
+            {
+                break;;
+            }
+            start = altPair(start, next);
+            next++;
         }
-        va_end(args);
+      
         return start;
     }
 
@@ -76,7 +78,7 @@ public:
         NFA* start = first;
         while (1) {
             NFA* frag = va_arg(args, NFA*);
-            if(frag == NULL)
+            if(frag == NULL || frag->in == NULL || frag->out == NULL)
                 break;
             start = orPair(start, frag);
             first++;

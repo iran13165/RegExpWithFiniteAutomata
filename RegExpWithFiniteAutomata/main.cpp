@@ -8,27 +8,28 @@
 #include <iostream>
 #include "state.cpp"
 #include "builders.cpp"
+#include <memory>
 using namespace std;
 
+
 int main(int argc, const char * argv[]) {
-//    State *s1 = new State(false);
-//    State *s2 = new State(false);
-//    State *s3 = new State(true);
-//
-//    s1->addTransitionOnSymbol("a", s2);
-//    s1->addTransitionOnSymbol("b", s3);
-//
-//    cout<<s1->getTransitionOnSymbol("a").size()<<endl;
     Builders build;
     NFA* a = build._char("a");
     NFA* b = build._char("b");
-    NFA* c = build._char("c");
-    //problem occurs when call build.alt(build.charc("a"),build.charc("a"),build.charc("a"));
-    build._or(a,b,c);
+//    NFA* c = build._char("c");
+//    NFA* d = build._char("d");
+   // problem occurs when call build.alt(build.charc("a"),build.charc("a"),build.charc("a"));
+    build.altPair(a,b);
+//    build.alt(a,b,c);
+//    build.alt(a,b,c,d);
+   // build.alt(a,b);
 
-    cout<<a->matches("ab")<<endl;
-    cout<<b->matches("b")<<endl;
-    cout<<c->matches("c")<<endl;
+    a->setTransitionTable(a->in);
+    a->setEpsilonClosure();
+
+    cout<<a->matches("abc")<<endl;
+    cout<<a->matches("b")<<endl;
+    cout<<a->matches("c")<<endl;
     cout<<a->matches("d")<<endl;
     return 0;
 }

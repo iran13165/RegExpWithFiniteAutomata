@@ -11,10 +11,24 @@
             <PersistentString
                value = "State::getTransaction();">
             </PersistentString>
+            <PersistentString
+               value = "start">
+            </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "State** std::__1::construct_at[abi:v15006]&lt;State*, State* const&amp;, State**&gt;(State**, State* const&amp;):construct_at.h">
+      </ContextState>
+      <ContextState
+         contextName = "NFA::setTransitionTable(State*):nfa.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "transitionTable">
+            </PersistentString>
+            <PersistentString
+               value = "combine">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
    </ContextStates>
 </VariablesViewState>

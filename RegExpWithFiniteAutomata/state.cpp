@@ -22,6 +22,7 @@ class State
 public:
     bool accepting;
     map<string,set<State*>> _transition;
+    unsigned long int num;
     State(bool accepting)
     {
         this->accepting = accepting;
