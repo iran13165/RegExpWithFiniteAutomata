@@ -30,8 +30,8 @@
             filePath = "RegExpWithFiniteAutomata/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "main(argc, argv)"
             landmarkType = "9">
          </BreakpointContent>
@@ -40,7 +40,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C965C24B-B5F5-49C5-918A-F27D2797359D"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RegExpWithFiniteAutomata/main.cpp"
@@ -336,6 +336,51 @@
                   endingLineNumber = "48"
                   offsetFromSymbolStart = "192">
                </Location>
+               <Location
+                  uuid = "C965C24B-B5F5-49C5-918A-F27D2797359D - a5fc014b1df7eb2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "C965C24B-B5F5-49C5-918A-F27D2797359D - a5fc014b1df7eb2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "C965C24B-B5F5-49C5-918A-F27D2797359D - a5fc014b1df7eb2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "172">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -349,8 +394,8 @@
             filePath = "RegExpWithFiniteAutomata/nfa.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "setTransitionTable(start)"
             landmarkType = "7">
          </BreakpointContent>
@@ -365,8 +410,8 @@
             filePath = "RegExpWithFiniteAutomata/nfa.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "setTransitionTable(start)"
             landmarkType = "7">
             <Locations>
@@ -520,7 +565,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
             endingLineNumber = "22"
-            landmarkName = "make_unique(args)"
+            landmarkName = "main(argc, argv)"
             landmarkType = "9">
             <Locations>
                <Location
@@ -598,6 +643,21 @@
                   endingLineNumber = "43"
                   offsetFromSymbolStart = "288">
                </Location>
+               <Location
+                  uuid = "E473E734-9FBE-4B23-BFB3-38F1FD4BFCCC - a5fc014b1df7e844"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "152">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -674,8 +734,8 @@
             filePath = "RegExpWithFiniteAutomata/nfa.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
             landmarkName = "setTransitionTable(start)"
             landmarkType = "7">
             <Locations>
@@ -715,346 +775,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E36569AD-3158-433C-A79E-C977D581E1FB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "setTransitionTable(start)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E36569AD-3158-433C-A79E-C977D581E1FB - ab7c2cb87edd123e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "648">
-               </Location>
-               <Location
-                  uuid = "E36569AD-3158-433C-A79E-C977D581E1FB - ab7c2cb87edd123e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "700">
-               </Location>
-               <Location
-                  uuid = "E36569AD-3158-433C-A79E-C977D581E1FB - ab7c2cb87edd123e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "716">
-               </Location>
-               <Location
-                  uuid = "E36569AD-3158-433C-A79E-C977D581E1FB - ab7c2cb87edd123e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "872">
-               </Location>
-               <Location
-                  uuid = "E36569AD-3158-433C-A79E-C977D581E1FB - ab7c2cb87edd123e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "85"
-                  endingLineNumber = "85"
-                  offsetFromSymbolStart = "1260">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EA0B8DFE-63F3-472C-9DEE-4E45DCFE773D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
-            landmarkName = "setTransitionTable(start)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "EA0B8DFE-63F3-472C-9DEE-4E45DCFE773D - ab7c2cb87edd0fe0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "103"
-                  endingLineNumber = "103"
-                  offsetFromSymbolStart = "1432">
-               </Location>
-               <Location
-                  uuid = "EA0B8DFE-63F3-472C-9DEE-4E45DCFE773D - ab7c2cb87edd0e3f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "116"
-                  endingLineNumber = "116"
-                  offsetFromSymbolStart = "1432">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "setTransitionTable(start)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd0f83"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "104"
-                  endingLineNumber = "104"
-                  offsetFromSymbolStart = "1472">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd0f83"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "104"
-                  endingLineNumber = "104"
-                  offsetFromSymbolStart = "1544">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd0e1c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "648">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd0e1c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "700">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd0e1c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "716">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd0e1c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "872">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd0e1c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "1260">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd09f1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "118"
-                  endingLineNumber = "118"
-                  offsetFromSymbolStart = "648">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd09f1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "118"
-                  endingLineNumber = "118"
-                  offsetFromSymbolStart = "700">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd09f1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "118"
-                  endingLineNumber = "118"
-                  offsetFromSymbolStart = "716">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd09f1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "118"
-                  endingLineNumber = "118"
-                  offsetFromSymbolStart = "872">
-               </Location>
-               <Location
-                  uuid = "0EE7AC58-59F2-4F9A-A336-2D56A3C57861 - ab7c2cb87edd09f1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
-                  moduleName = "RegExpWithFiniteAutomata"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "118"
-                  endingLineNumber = "118"
-                  offsetFromSymbolStart = "1260">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3BC0AFB4-AC62-4D7D-87A1-EE7E6958A253"
+            uuid = "294C8F09-2116-4BCD-9BED-A3988F7DB742"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -1067,7 +788,7 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "3BC0AFB4-AC62-4D7D-87A1-EE7E6958A253 - ab7c2cb87edd0c2e"
+                  uuid = "294C8F09-2116-4BCD-9BED-A3988F7DB742 - ab7c2cb87edd0e98"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1077,12 +798,12 @@
                   urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "101"
-                  endingLineNumber = "101"
-                  offsetFromSymbolStart = "1320">
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "588">
                </Location>
                <Location
-                  uuid = "3BC0AFB4-AC62-4D7D-87A1-EE7E6958A253 - ab7c2cb87edd0e7d"
+                  uuid = "294C8F09-2116-4BCD-9BED-A3988F7DB742 - ab7c2cb87edd0e7d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -1094,7 +815,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "114"
                   endingLineNumber = "114"
-                  offsetFromSymbolStart = "1320">
+                  offsetFromSymbolStart = "588">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1102,47 +823,381 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "095B006A-64D3-4B91-9A54-021E3C40D413"
+            uuid = "A22E306C-59FC-401C-BCD8-F0B588B1BE2F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "A22E306C-59FC-401C-BCD8-F0B588B1BE2F - a5fc014b1df7eab3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "A22E306C-59FC-401C-BCD8-F0B588B1BE2F - a5fc014b1df7eab3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A93AE2A-5CAF-4E91-ACE3-518F403EC7B8"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RegExpWithFiniteAutomata/nfa.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "setTransitionTable(start)"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "create_dfa_table()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "095B006A-64D3-4B91-9A54-021E3C40D413 - ab7c2cb87edd0c8b"
+                  uuid = "1A93AE2A-5CAF-4E91-ACE3-518F403EC7B8 - 3bc13b3257a89761"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
+                  symbolName = "NFA::create_dfa_table()"
                   moduleName = "RegExpWithFiniteAutomata"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "96"
-                  endingLineNumber = "96"
-                  offsetFromSymbolStart = "1140">
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "456">
                </Location>
                <Location
-                  uuid = "095B006A-64D3-4B91-9A54-021E3C40D413 - ab7c2cb87edd0f26"
+                  uuid = "1A93AE2A-5CAF-4E91-ACE3-518F403EC7B8 - 3bc13b3257a896dc"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "NFA::setTransitionTable(State*)"
+                  symbolName = "NFA::create_dfa_table()"
                   moduleName = "RegExpWithFiniteAutomata"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "109"
-                  endingLineNumber = "109"
-                  offsetFromSymbolStart = "1140">
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "1A93AE2A-5CAF-4E91-ACE3-518F403EC7B8 - 3bc13b3257a896fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NFA::create_dfa_table()"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "1A93AE2A-5CAF-4E91-ACE3-518F403EC7B8 - 3bc13b3257a8961e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NFA::create_dfa_table()"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "160"
+                  endingLineNumber = "160"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB889DAC-9F5A-435D-9C17-2D5FE6DFF9C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "create_dfa_table()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA04BE80-F257-4858-B9FF-E74EBE3FFAEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "create_dfa_table()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48464594-E227-4C73-8438-8386912D2D18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "create_dfa_table()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31401358-CC1F-43E5-BB95-330738B2D266"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "create_dfa_table()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DF9FE60-1D03-489A-BAD8-1ACC7D6BF0D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "create_dfa_table()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE0E7F98-DE62-4DC0-B9EA-DC72C286F267"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
+            landmarkName = "loop_for_dfa_table(dfaTable, last_key)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B494B3F9-2C4D-4099-A026-3E067B14C512"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "loop_for_dfa_table(dfaTable, last_key)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "197B791E-E78F-4FD8-AE3D-669BB1DC0B20"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
+            landmarkName = "loop_for_dfa_table(dfaTable, last_key)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "197B791E-E78F-4FD8-AE3D-669BB1DC0B20 - 6e9f086e91ae5fc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NFA::loop_for_dfa_table(std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;*, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;)"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "288"
+                  endingLineNumber = "288"
+                  offsetFromSymbolStart = "2448">
+               </Location>
+               <Location
+                  uuid = "197B791E-E78F-4FD8-AE3D-669BB1DC0B20 - 6e9f086e91ae5fc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NFA::loop_for_dfa_table(std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;*, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;)"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "288"
+                  endingLineNumber = "288"
+                  offsetFromSymbolStart = "2456">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22175BAE-BC14-431A-8FBF-5EA5C569F5B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
+            landmarkName = "remap_dfa_table(dfaTable)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "22175BAE-BC14-431A-8FBF-5EA5C569F5B2 - 26b47fa904dd6177"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NFA::remap_dfa_table(std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;*)"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "300"
+                  endingLineNumber = "300"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "22175BAE-BC14-431A-8FBF-5EA5C569F5B2 - 26b47fa904dd6177"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NFA::remap_dfa_table(std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;*)"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "300"
+                  endingLineNumber = "300"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BE1ED1F-92C4-4953-9025-305BFF59C7DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RegExpWithFiniteAutomata/nfa.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "306"
+            endingLineNumber = "306"
+            landmarkName = "remap_dfa_table(dfaTable)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0BE1ED1F-92C4-4953-9025-305BFF59C7DC - 26b47fa904dd668d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NFA::remap_dfa_table(std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;*)"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "306"
+                  endingLineNumber = "306"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "0BE1ED1F-92C4-4953-9025-305BFF59C7DC - 26b47fa904dd668d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NFA::remap_dfa_table(std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;*)"
+                  moduleName = "RegExpWithFiniteAutomata"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iranchoudhury/Documents/C-CPlusPlus/RegExpWithFiniteAutomata/RegExpWithFiniteAutomata/nfa.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "306"
+                  endingLineNumber = "306"
+                  offsetFromSymbolStart = "380">
                </Location>
             </Locations>
          </BreakpointContent>

@@ -3,6 +3,17 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "NFA::create_dfa_table():nfa.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "set&lt;unsigned long int&gt; k">
+            </PersistentString>
+            <PersistentString
+               value = "dfaTable">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "std::__1::__tree_node_base&lt;void*&gt;* std::__1::__tree_min[abi:v15006]&lt;std::__1::__tree_node_base&lt;void*&gt;*&gt;(std::__1::__tree_node_base&lt;void*&gt;*):__tree">
       </ContextState>
       <ContextState
@@ -13,6 +24,9 @@
             </PersistentString>
             <PersistentString
                value = "start">
+            </PersistentString>
+            <PersistentString
+               value = "a-&gt;getAlphabet()">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
