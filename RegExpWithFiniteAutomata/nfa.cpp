@@ -31,6 +31,9 @@ public:
     set<State*> acceptingStates = set<State*>();
     map<unsigned long int,map<string,set<unsigned long int>>> *transitionTable = new (map<unsigned long int,map<string,set<unsigned long int>>>);
     set<State*> visitedSet;
+    set<unsigned long int> dfa_accepted_state_num = set<unsigned long int>();
+    set<string> dfa_accepted_state = set<string>();
+    map<string,unsigned long int> mapping = map<string,unsigned long int>();
     set<State*> getClosure(State* v_state)
     {
         auto st = v_state->getTransitionOnSymbol(EPSILON);
@@ -136,12 +139,14 @@ public:
             }
 
     }
+    
     void create_dfa_table()
     {
+        
         set<unsigned long int> starting_state = set<unsigned long int>();
         map<string,set<unsigned long int>> it = transitionTable->at(1);
         starting_state = it.at(EPSILON_CLOSURE);
-        
+        set<unsigned long int> nfa_state_nums = getAcceptingStateNumbers();
         set<string> alphabets = getAlphabet();
         set<unsigned long int> alphabetsSet;
         map<string,map<string,set<unsigned long int>>> dfaTable = map<string,map<string,set<unsigned long int>>>();
@@ -189,10 +194,31 @@ public:
         
         }
         string key = "";
+        bool isAccepting = false;
         for(auto s :starting_state)
         {
+            for(auto ac_state : nfa_state_nums)
+            {
+                if(s==ac_state)
+                {
+                    isAccepting = true;
+                }
+            }
             key+="_"+to_string(s);
+            
         }
+        if(isAccepting)
+        {
+            auto it = dfa_accepted_state.find(key);
+             if(it == dfa_accepted_state.end())
+             {
+                 dfa_accepted_state.insert(key);
+             }
+            isAccepting = false;
+        }
+        
+        
+        
           auto itdfa = dfaTable.find(key);
           if(itdfa != dfaTable.end())
           {
@@ -210,6 +236,7 @@ public:
     }
     void loop_for_dfa_table(map<string,map<string,set<unsigned long int>>>* dfaTable, string last_key)
     {
+        set<unsigned long int> nfa_state_nums = getAcceptingStateNumbers();
         set<string> alphabets = getAlphabet();
         for(string alph:alphabets)
         {
@@ -267,10 +294,29 @@ public:
                 
                 }
                 string key = "";
+                bool isAccepting = false;
                 for(auto s :starting_state)
                 {
+                    for(auto ac_state : nfa_state_nums)
+                    {
+                        if(s==ac_state)
+                        {
+                            isAccepting = true;
+                        }
+                    }
                     key+="_"+to_string(s);
+                    
                 }
+                if(isAccepting)
+                {
+                   auto it = dfa_accepted_state.find(key);
+                    if(it == dfa_accepted_state.end())
+                    {
+                        dfa_accepted_state.insert(key);
+                    }
+                    isAccepting = false;
+                }
+                
                   auto itdfa = dfaTable->find(key);
                   if(itdfa != dfaTable->end())
                   {
@@ -295,9 +341,11 @@ public:
     void remap_dfa_table(map<string,map<string,set<unsigned long int>>>* dfaTable)
     {
         map<unsigned long int,map<string,unsigned long int>> final_dfa = map<unsigned long int,map<string,unsigned long int>>();
-        map<string,unsigned long int> mapping = map<string,unsigned long int>();
+        //map<string,unsigned long int> mapping = map<string,unsigned long int>();
         unsigned long int increment = 1;
         set<string> alphabets = getAlphabet();
+        set<unsigned long int> nfa_state_nums = getAcceptingStateNumbers();
+
         for(auto transition : *dfaTable)
         {
             mapping[transition.first] = increment;
@@ -310,10 +358,28 @@ public:
                 if(it != dfaTable->at(transition.first).end()){
                     set<unsigned long int> sets = dfaTable->at(transition.first).at(alpha);
                      string key = "";
-                     for(auto set : sets)
-                     {
-                         key+="_"+to_string(set);
-                     }
+                    bool isAccepting = false;
+                    for(auto s :sets)
+                    {
+                        for(auto ac_state : nfa_state_nums)
+                        {
+                            if(s==ac_state)
+                            {
+                                isAccepting = true;
+                            }
+                        }
+                        key+="_"+to_string(s);
+                        
+                    }
+                    if(isAccepting)
+                    {
+                        auto it = dfa_accepted_state.find(key);
+                         if(it == dfa_accepted_state.end())
+                         {
+                             dfa_accepted_state.insert(key);
+                         }
+                        isAccepting = false;
+                    }
                      final_dfa[mapping[transition.first]].insert({alpha,mapping[key]});
 
                 }
@@ -322,7 +388,13 @@ public:
                 }
             }
         }
+        /// dfa accepting table mapping
+        for(string accept_state : dfa_accepted_state)
+        {
+            dfa_accepted_state_num.insert(mapping[accept_state]);
+        }
         
+    
     }
 };
 #endif
