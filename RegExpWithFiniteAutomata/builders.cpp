@@ -20,8 +20,8 @@ public:
     {
         State* inState = new NFAState(false);
         State* outState = new NFAState(true);
-
-        return new NFA(inState->addTransitionOnSymbol(c, outState),outState);
+        State* t = inState->addTransitionOnSymbol(c, outState);
+        return new NFA(t,outState);
     }
     NFA* e()
     {
@@ -35,25 +35,16 @@ public:
         return new NFA(first->in, second->out);
     }
    //template<typename T,typename... Param>
-    NFA* alt(NFA* first, ...)
+    NFA* alt(vector<NFA*> nfs)
     {
-        va_list args;
-        NFA* start = first;
-        va_start(args, first);
-       // start = altPair(start, second);
-        while (1) {
-           
-            NFA* next = va_arg(args, NFA*);
-            //std::cout<<(next->in->accepting)<<std::endl;
-            if(next == NULL || next->in == NULL || next->out == NULL)
-            {
-                break;;
-            }
-            start = altPair(start, next);
-            next++;
+        NFA* start = nfs[0];
+        for(int i = 1; i<nfs.size(); i++)
+        {
+            start = orPair(start, nfs[i]);
         }
-      
+        
         return start;
+
     }
 
     NFA* orPair(NFA* first, NFA* second)
@@ -71,19 +62,15 @@ public:
         return new NFA(inState, outState);
         
     }
-    NFA* _or(NFA* first,...)
+    NFA* _or(vector<NFA*> nfs)
     {
-        va_list args;
-        va_start(args, first);
-        NFA* start = first;
-        while (1) {
-            NFA* frag = va_arg(args, NFA*);
-            if(frag == NULL || frag->in == NULL || frag->out == NULL)
-                break;
-            start = orPair(start, frag);
-            first++;
+        
+        NFA* start = nfs[0];
+        for(int i = 1; i<nfs.size(); i++)
+        {
+            start = orPair(start, nfs[i]);
         }
-        va_end(args);
+        
         return start;
     }
 

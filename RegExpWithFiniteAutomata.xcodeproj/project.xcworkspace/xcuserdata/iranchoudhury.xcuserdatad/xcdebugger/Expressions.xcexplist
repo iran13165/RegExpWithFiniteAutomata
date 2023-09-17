@@ -3,21 +3,15 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "std::__1::__tree_node_base&lt;void*&gt;* std::__1::__tree_min[abi:v15006]&lt;std::__1::__tree_node_base&lt;void*&gt;*&gt;(std::__1::__tree_node_base&lt;void*&gt;*):__tree">
-      </ContextState>
-      <ContextState
-         contextName = "NFA::remap_dfa_table(std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;*):nfa.cpp">
+         contextName = "NFA::create_dfa_minimize_table(std::__1::map&lt;unsigned long, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, unsigned long, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, unsigned long&gt; &gt; &gt;, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;std::__1::pair&lt;unsigned long const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, unsigned long, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, unsigned long&gt; &gt; &gt; &gt; &gt; &gt;):nfa.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "dfa_accepted_state">
+               value = "final_dfa">
             </PersistentString>
             <PersistentString
-               value = "dfa_accepted_state_num">
+               value = "dfaTable">
             </PersistentString>
          </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "State** std::__1::construct_at[abi:v15006]&lt;State*, State* const&amp;, State**&gt;(State**, State* const&amp;):construct_at.h">
       </ContextState>
       <ContextState
          contextName = "main:main.cpp">
@@ -34,23 +28,55 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "NFA::create_dfa_table():nfa.cpp">
+         contextName = "NFA::remap_dfa_table(std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;*):nfa.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "set&lt;unsigned long int&gt; k">
+               value = "dfa_accepted_state">
             </PersistentString>
             <PersistentString
-               value = "dfaTable">
+               value = "dfa_accepted_state_num">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NFA::remap_dfa_table(std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;*):nfa.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "State::addTransitionOnSymbol(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, State*):state.cpp">
       </ContextState>
       <ContextState
          contextName = "NFA::loop_for_dfa_table(std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt;, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, std::__1::set&lt;unsigned long, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;unsigned long&gt; &gt; &gt; &gt; &gt; &gt; &gt; &gt;*, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):nfa.cpp">
          <PersistentStrings>
             <PersistentString
+               value = "transitionTable">
+            </PersistentString>
+            <PersistentString
                value = "dfa_accepted_state">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "State** std::__1::construct_at[abi:v15006]&lt;State*, State* const&amp;, State**&gt;(State**, State* const&amp;):construct_at.h">
+      </ContextState>
+      <ContextState
+         contextName = "NFA::create_dfa_table():nfa.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "dfaTable">
+            </PersistentString>
+            <PersistentString
+               value = "set&lt;unsigned long int&gt; k">
+            </PersistentString>
+            <PersistentString
+               value = "key">
+            </PersistentString>
+            <PersistentString
+               value = "working_list">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NFA::is_two_states_equivalent(unsigned long, unsigned long, std::__1::map&lt;unsigned long, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, unsigned long, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, unsigned long&gt; &gt; &gt;, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;std::__1::pair&lt;unsigned long const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, unsigned long, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, unsigned long&gt; &gt; &gt; &gt; &gt; &gt;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):nfa.cpp">
       </ContextState>
       <ContextState
          contextName = "NFA::setTransitionTable(State*):nfa.cpp">
@@ -62,6 +88,12 @@
                value = "combine">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "std::__1::__tree_node_base&lt;void*&gt;* std::__1::__tree_min[abi:v15006]&lt;std::__1::__tree_node_base&lt;void*&gt;*&gt;(std::__1::__tree_node_base&lt;void*&gt;*):__tree">
+      </ContextState>
+      <ContextState
+         contextName = "NFA::areEquivalent(unsigned long, unsigned long, std::__1::map&lt;unsigned long, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, unsigned long, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, unsigned long&gt; &gt; &gt;, std::__1::less&lt;unsigned long&gt;, std::__1::allocator&lt;std::__1::pair&lt;unsigned long const, std::__1::map&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, unsigned long, std::__1::less&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::pair&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const, unsigned long&gt; &gt; &gt; &gt; &gt; &gt;):nfa.cpp">
       </ContextState>
    </ContextStates>
 </VariablesViewState>
