@@ -10,3 +10,4 @@
 static const string EPSILON = "ε";
 static const string EPSILON_CLOSURE = "ε*";
 #endif /* constants_h */
+

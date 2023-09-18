@@ -7,8 +7,8 @@
 #ifndef nfastate_hpp
 #define nfastate_hpp
 #include <stdio.h>
-#include "state.cpp"
-#include "constants.h"
+#include "../state.cpp"
+#include "../special-symbol.h"
 using namespace std;
 
 

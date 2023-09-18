@@ -7,11 +7,11 @@
 #ifndef nfa_h
 #define nfa_h
 #include <stdio.h>
-#include "state.cpp"
+#include "../state.cpp"
 #include <map>
 #include <set>
 #include <iostream>
-#include "constants.h"
+#include "special-symbol.h"
 using namespace std;
 
 class NFA
@@ -28,13 +28,17 @@ public:
     bool matches(string str) {
       return this->in->match(str,this->in);
     }
-    set<State*> acceptingStates = set<State*>();
-    map<unsigned long int,map<string,set<unsigned long int>>> *transitionTable = new (map<unsigned long int,map<string,set<unsigned long int>>>);
-    set<State*> visitedSet;
+    set<State*> _nfa_accepting_states = set<State*>();
+    map<unsigned long int,map<string,set<unsigned long int>>> *_nfa_table = new (map<unsigned long int,map<string,set<unsigned long int>>>);
+    set<State*> _visited_set;
     set<unsigned long int> dfa_accepted_state_num = set<unsigned long int>();
-    set<string> dfa_accepted_state = set<string>();
-    map<string,unsigned long int> mapping = map<string,unsigned long int>();
-    set<string> alphabets = set<string>();
+    set<string> _dfa_accepted_state = set<string>();
+    map<string,unsigned long int> _mapping = map<string,unsigned long int>();
+    set<string> _alphabets = set<string>();
+    map<unsigned long int,set<unsigned long int>> current_transition_map = map<unsigned long int,set<unsigned long int>>();
+    map<unsigned long int,map<string,unsigned long int>> dfa_minimize_table = map<unsigned long int,map<string,unsigned long int>>();
+    set<unsigned long int> min_dfa_acceting_state=set<unsigned long int>();
+    map<unsigned long int,map<string,unsigned long int>> minimizedTable = map<unsigned long int,map<string,unsigned long int>>();
     set<State*> getClosure(State* v_state)
     {
         auto st = v_state->getTransitionOnSymbol(EPSILON);
@@ -58,22 +62,22 @@ public:
     }
     void setEpsilonClosure()
     {
-               for(auto v_state: visitedSet)
+               for(auto v_state: _visited_set)
                {
-                   transitionTable->at(v_state->num).erase(EPSILON);
+                   _nfa_table->at(v_state->num).erase(EPSILON);
                    auto closer_set = getClosure(v_state);
                    set<unsigned long int> c_set = {};
                    for(State* sset : closer_set)
                    {
                        c_set.insert(sset->num);
                    }
-                   transitionTable->find(v_state->num)->second.insert(make_pair(EPSILON_CLOSURE, c_set));
+                   _nfa_table->find(v_state->num)->second.insert(make_pair(EPSILON_CLOSURE, c_set));
                }
     }
     set<string> getAlphabet()
     {
         set<string> alphabets = set<string>();
-        for(auto transition : *transitionTable)
+        for(auto transition : *_nfa_table)
         {
             for(auto list_tran : transition.second)
             {
@@ -88,7 +92,7 @@ public:
     set<unsigned long int> getAcceptingStateNumbers()
     {
         set<unsigned long int> setWithAcceptingStaeNumbers = set<unsigned long int>();
-        for(auto s : acceptingStates)
+        for(auto s : _nfa_accepting_states)
         {
             setWithAcceptingStaeNumbers.insert(s->num);
         }
@@ -96,19 +100,19 @@ public:
     }
    void setTransitionTable(State* start)
     {
-            if(visitedSet.contains(start))
+            if(_visited_set.contains(start))
             {
                 return;
             }
-            visitedSet.insert(start);
+            _visited_set.insert(start);
        
        
-            start->num = visitedSet.size();
+            start->num = _visited_set.size();
        if(start->accepting == true)
        {
-           acceptingStates.insert(start);
+           _nfa_accepting_states.insert(start);
        }
-            transitionTable->insert({start->num,{}});
+            _nfa_table->insert({start->num,{}});
             map<string,set<State*>> transitions = start->getTransitions();
             for(auto next : transitions)
             {
@@ -127,8 +131,8 @@ public:
                     }
                 }
                                 
-               auto it = transitionTable->find(start->num);
-                if(it != transitionTable->end())
+               auto it = _nfa_table->find(start->num);
+                if(it != _nfa_table->end())
                 {
                     for(auto item : *combine)
                     {
@@ -147,7 +151,7 @@ public:
                 }
                 else
                 {
-                    transitionTable->insert({start->num, *combine});
+                    _nfa_table->insert({start->num, *combine});
                 }
             }
     }
@@ -156,10 +160,10 @@ public:
     {
         this->setEpsilonClosure();
         set<unsigned long int> starting_state = set<unsigned long int>();
-        map<string,set<unsigned long int>> it = transitionTable->at(1);
+        map<string,set<unsigned long int>> it = _nfa_table->at(1);
         starting_state = it.at(EPSILON_CLOSURE);
         set<unsigned long int> nfa_state_nums = getAcceptingStateNumbers();
-         this->alphabets = this->getAlphabet();
+         this->_alphabets = this->getAlphabet();
         set<unsigned long int> alphabetsSet;
         map<string,map<string,string>> dfaTable = map<string,map<string,string>>();
         map<string,set<unsigned long int>> transitionset = map<string,set<unsigned long int>>();
@@ -179,29 +183,29 @@ public:
                 dfaStateLabel+="_"+to_string(s);
             }
             if(accepting){
-                dfa_accepted_state.insert(dfaStateLabel);
+                _dfa_accepted_state.insert(dfaStateLabel);
                 accepting = false;
             }
             dfaTable[dfaStateLabel] = {};
-        for(string alpha : alphabets)
+        for(string alpha : _alphabets)
         {
             
             set<unsigned long int> on_symbol = set<unsigned long int>();
             for(auto st:states)
             {
                 
-                auto it = transitionTable->at(st).find(alpha);
+                auto it = _nfa_table->at(st).find(alpha);
                 
                 //set<unsigned long int> tset = set<unsigned long int>();
-                if(it != transitionTable->at(st).end())
+                if(it != _nfa_table->at(st).end())
                 {
-                    auto nit = transitionTable->at(st).find(alpha);
-                    if(nit != transitionTable->at(st).end())
+                    auto nit = _nfa_table->at(st).find(alpha);
+                    if(nit != _nfa_table->at(st).end())
                     {
-                        alphabetsSet  = transitionTable->at(st).at(alpha);
+                        alphabetsSet  = _nfa_table->at(st).at(alpha);
                         for(unsigned long int l : alphabetsSet)
                         {
-                            set<unsigned long int> closerSet =  transitionTable->at(l).at(EPSILON_CLOSURE);
+                            set<unsigned long int> closerSet =  _nfa_table->at(l).at(EPSILON_CLOSURE);
                             
                             for(unsigned long int closure : closerSet)
                             {
@@ -254,43 +258,42 @@ public:
 
         for(auto transition : *dfaTable)
         {
-            mapping[transition.first] = increment;
+            _mapping[transition.first] = increment;
             increment++;
         }
         for(auto transition : *dfaTable)
         {
-            for(auto alpha: this->alphabets)
+            for(auto alpha: this->_alphabets)
             {
                 auto its = transition.second.find(alpha);
                 if(its != transition.second.end())
                 {
                     map<string,unsigned long int> pair;
-                    pair.insert({alpha,mapping[transition.second.at(alpha)]});
-                    auto it = final_dfa.find(mapping[transition.first]);
+                    pair.insert({alpha,_mapping[transition.second.at(alpha)]});
+                    auto it = final_dfa.find(_mapping[transition.first]);
                     if(it != final_dfa.end())
                     {
-                        it->second.insert({alpha,mapping[transition.second.at(alpha)]});
+                        it->second.insert({alpha,_mapping[transition.second.at(alpha)]});
                     } else
-                        final_dfa.insert({mapping[transition.first],pair});
+                        final_dfa.insert({_mapping[transition.first],pair});
                 }else
                 {
-                    final_dfa.insert({mapping[transition.first],{}});
+                    final_dfa.insert({_mapping[transition.first],{}});
                 }
             }
         }
         /// dfa accepting table mapping
-        for(string accept_state : dfa_accepted_state)
+        for(string accept_state : _dfa_accepted_state)
         {
-            dfa_accepted_state_num.insert(mapping[accept_state]);
+            dfa_accepted_state_num.insert(_mapping[accept_state]);
         }
         create_dfa_minimize_table(final_dfa);
     
     }
-    map<unsigned long int,set<unsigned long int>> current_transition_map = map<unsigned long int,set<unsigned long int>>();
-
+ 
     void create_dfa_minimize_table(map<unsigned long int,map<string,unsigned long int>> final_dfa)
     {
-        map<unsigned long int,map<string,unsigned long int>> dfa_minimize_table = map<unsigned long int,map<string,unsigned long int>>();
+      
         set<unsigned long int> accepting_states = dfa_accepted_state_num;
         set<unsigned long int> non_accepting_states = set<unsigned long int>();
         for(auto st: final_dfa)
@@ -311,7 +314,7 @@ public:
         vector<set<unsigned long int>> sAll = vector<set<unsigned long int>>();
         if(non_accepting_states.size()>0)
         sAll.push_back(non_accepting_states);
-        if(acceptingStates.size()>0)
+        if(_nfa_accepting_states.size()>0)
         sAll.push_back(accepting_states);
         all.push_back(sAll);
         vector<set<unsigned long int>> previous_state = vector<set<unsigned long int>>();
@@ -397,7 +400,7 @@ public:
         }
         //REMAP
         map<set<unsigned long int>,unsigned long int> remap =  map<set<unsigned long int>,unsigned long int>();
-        map<unsigned long int,map<string,unsigned long int>> minimizedTable = map<unsigned long int,map<string,unsigned long int>>();
+    
         unsigned long int idx=1;
         for(auto _set: current_state)
         {
@@ -406,8 +409,12 @@ public:
         }
         for(auto entry: remap)
         {
+            if(dfa_accepted_state_num.contains(entry.second))
+            {
+                min_dfa_acceting_state.insert(entry.second);
+            }
             minimizedTable.insert({entry.second,{}});
-            for(auto symbol: this->alphabets)
+            for(auto symbol: this->_alphabets)
             {
                 unsigned long int original_transition=0;
                 for(auto originalState: entry.first)
@@ -441,7 +448,7 @@ public:
     bool areEquivalent(unsigned long int h_state,unsigned long int rest_state,map<unsigned long int,map<string,unsigned long int>> final_dfa)
     {
        
-        for(auto alpha : this->alphabets)
+        for(auto alpha : this->_alphabets)
         {
             if(!is_two_states_equivalent(h_state,rest_state,final_dfa,alpha))
            {
@@ -497,6 +504,27 @@ public:
             }
         }
         
+        return true;
+    }
+    bool matches_min_dfa(string _string)
+    {
+        unsigned long int state = 1;
+        unsigned long int i = 0;
+        while (!_string.substr(i,1).empty()) {
+           auto it = minimizedTable.at(state).find(_string.substr(i++,1));
+            if(it == minimizedTable.at(state).end())
+            {
+                return false;
+            } else
+            {
+                state = it->second;
+            }
+        }
+        set<unsigned long int> min_dfa_accepting_states = min_dfa_acceting_state;
+        if(!min_dfa_accepting_states.contains(state))
+        {
+            return false;
+        }
         return true;
     }
 };

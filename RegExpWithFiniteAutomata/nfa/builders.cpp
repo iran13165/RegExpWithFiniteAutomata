@@ -6,7 +6,7 @@
 //
 #include <utility>
 #include <cstdarg>
-#include "state.cpp"
+#include "../state.cpp"
 #include "nfa.cpp"
 #include <iostream>
 using namespace std;
