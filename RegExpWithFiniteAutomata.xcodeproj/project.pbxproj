@@ -13,6 +13,7 @@
 		1B9541272AA7087000398A9B /* NFAState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B9541262AA7087000398A9B /* NFAState.cpp */; };
 		1B9E2D282AA58207005EDD84 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E2D272AA58207005EDD84 /* main.cpp */; };
 		1B9E2D332AA583E5005EDD84 /* state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E2D312AA583E5005EDD84 /* state.cpp */; };
+		1BDA42A52AB9718000F65326 /* dfa-minimizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA42A42AB9718000F65326 /* dfa-minimizer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,7 @@
 		1B9E2D242AA58207005EDD84 /* RegExpWithFiniteAutomata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RegExpWithFiniteAutomata; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9E2D272AA58207005EDD84 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1B9E2D312AA583E5005EDD84 /* state.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = state.cpp; sourceTree = "<group>"; };
+		1BDA42A42AB9718000F65326 /* dfa-minimizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "dfa-minimizer.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				1B0E76532AB8C81B0065CE4C /* dfa.cpp */,
+				1BDA42A42AB9718000F65326 /* dfa-minimizer.cpp */,
 			);
 			path = dfa;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				1B0E76542AB8C81B0065CE4C /* dfa.cpp in Sources */,
 				1B9E2D332AA583E5005EDD84 /* state.cpp in Sources */,
 				1B837B822AA658800035A34F /* builders.cpp in Sources */,
+				1BDA42A52AB9718000F65326 /* dfa-minimizer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

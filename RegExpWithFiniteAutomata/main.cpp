@@ -8,6 +8,7 @@
 #include <iostream>
 #include "state.cpp"
 #include "nfa/builders.cpp"
+#include "dfa/dfa.cpp"
 #include <memory>
 using namespace std;
 
@@ -35,19 +36,22 @@ int main(int argc, const char * argv[]) {
     in->setEpsilonClosure();
     in->getAcceptingStateNumbers();
     in->getAlphabet();
-    in->create_dfa_table();
-    
-    cout<<in->matches("abc")<<endl;
-    cout<<in->matches_min_dfa("abc")<<endl;
-    
-    cout<<in->matches("b")<<endl;
-    cout<<in->matches_min_dfa("b")<<endl;
-
-    cout<<in->matches("c")<<endl;
-    cout<<in->matches_min_dfa("c")<<endl;
-
-    cout<<in->matches("d")<<endl;
-    cout<<in->matches_min_dfa("d")<<endl;
+    DFA dfa(in->in);
+    dfa.create_dfa_table();
+    //dfa().setTransitionTable(in->in);
+//    in->create_dfa_table();
+//    
+//    cout<<in->matches("abc")<<endl;
+    cout<<dfa.matches_min_dfa("abc")<<endl;
+//    
+//    cout<<in->matches("b")<<endl;
+    cout<<dfa.matches_min_dfa("b")<<endl;
+//
+//    cout<<in->matches("c")<<endl;
+    cout<<dfa.matches_min_dfa("c")<<endl;
+//
+//    cout<<in->matches("d")<<endl;
+    cout<<dfa.matches_min_dfa("d")<<endl;
 
     return 0;
 }
